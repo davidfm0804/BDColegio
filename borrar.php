@@ -6,7 +6,7 @@
 
     $sqli=new mysqli($servidor,$usuario,$contrasenia,$basededatos);
         
-    $consulta = 'DELETE FROM Alumnos WHERE idAlumno=10';
+    $consulta = 'DELETE FROM Alumnos WHERE idAlumno=11';
     $resultado = $sqli->query($consulta);
     //echo var_dump($resultado);
    
@@ -17,4 +17,4 @@
     }
     // Cerrar la conexión
     $sqli->close();
-    ?>
+?>
